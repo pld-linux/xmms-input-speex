@@ -1,5 +1,5 @@
 Summary:	Speex input plugin for XMMS
-Summary(pl):	Wtyczka wej¶ciowa formatu speex dla XMMS
+Summary(pl):	Wtyczka wej¶ciowa dls XMMS-a odtwarzaj±ca pliki w formacie speex
 Name:		xmms-input-speex
 Version:	0.8.0
 Release:	3
@@ -18,7 +18,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Speex input plugin for XMMS.
 
 %description -l pl
-Wtyczka wej¶ciowa formatu speex dla XMMS.
+Wtyczka wej¶ciowa dla XMMS-a odtwarzaj±ca pliki w formacie speex.
 
 %prep
 %setup -q -n speex-xmms
