@@ -7,8 +7,8 @@ License:	GPL
 Group:		X11/Applications/Sound
 Source0:	http://www.speex.org/download/speex-xmms-nightly.tar.gz
 URL:		http://www.speex.org/projects.html
-BuildRequires:	speex-devel >= 1.0
 BuildRequires:	libogg-devel
+BuildRequires:	speex-devel >= 1.0
 BuildRequires:	xmms-devel >= 1.2.3
 Requires:	xmms
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -16,7 +16,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define		plugin_dir	%(xmms-config --input-plugin-dir)
 
 %description
-Speex XMMS plugin.
+Speex input plugin for XMMS.
+
+%description -l pl
+Wtyczka wej¶ciowa formatu speex dla XMMS.
 
 %prep
 %setup -q -n speex-xmms
