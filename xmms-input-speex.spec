@@ -2,7 +2,7 @@ Summary:	Speex input plugin for XMMS
 Summary(pl):	Wtyczka wej¶ciowa formatu speex dla XMMS
 Name:		xmms-input-speex
 Version:	0.8.0
-Release:	2
+Release:	3
 License:	GPL
 Group:		X11/Applications/Sound
 Source0:	http://www.speex.org/download/speex-xmms-nightly.tar.gz
@@ -12,7 +12,6 @@ BuildRequires:	libogg-devel
 BuildRequires:	speex-devel >= 1.0
 BuildRequires:	rpmbuild(macros) >= 1.125
 BuildRequires:	xmms-devel >= 1.2.3
-Requires:	xmms
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
