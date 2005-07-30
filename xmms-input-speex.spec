@@ -6,7 +6,7 @@ Release:	1
 License:	GPL
 Group:		X11/Applications/Sound
 Source0:	speex-xmms-%{version}.tar.gz
-# Source0-md5:	788ec657f2d0078396b396a1fb804ff9
+# Source0-md5:	223a8c8fc7f073c7a7bd4fe6736ed0ee
 Patch0:		%{name}-utf8.patch
 BuildRequires:	libogg-devel
 BuildRequires:	speex-devel >= 1.0
